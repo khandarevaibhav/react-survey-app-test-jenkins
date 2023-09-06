@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: my-react-deployments
+  name: my-react-deployments
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-react-deployments
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: my-react-deployments
+    spec:
+      containers:
+      - image: vaibhav220622/my-react-app-latest:latest
+        name: my-react-app-latest
+        imagePullPolicy: Never
+        resources: {}
+        ports:
+        - containerPort: 5000
+
+status: {}

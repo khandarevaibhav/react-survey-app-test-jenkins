@@ -1,0 +1,113 @@
+
+
+.login-root {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+.formBuilder {
+  width: 445px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: white;
+}
+.loginContainer {
+  background-color: black;
+  color: white;
+  width: 430px;
+  height: 480px;
+  margin: 5% auto;
+  margin-top: 30px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  }
+
+  .loginContainer,h1{
+    padding-top: 15px;
+  }
+
+.label {
+  font-size: 1.5rem;
+}
+
+
+.input {
+  font-size: 0.9rem;
+  border-radius: 7px;
+  width: 250px;
+  padding: 9px;
+}
+
+.btn {
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  padding: 11px;
+  /* background-color: rgb(254, 106, 106); */
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #e3b8f1 0,
+    #B793C2 100%
+  );
+}
+
+.btn:focus {
+  box-shadow: #B793C2 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #B793C2 0 -3px 0 inset;
+}
+
+.btn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #B793C2 0 -3px 0 inset;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: #B793C2 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+.item1 {
+  background-color:#D9D9D9;
+  height: 55px;
+  width: 270px;
+  border-radius: 10px;
+  border-color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  color:black;
+  
+}
+
+input::placeholder {
+  padding-left: 10px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.item2 {
+ margin-top: -10px;
+}
+
+.navigation{
+  border: none;
+  background: transparent;
+  color: white;
+  text-decoration: underline;
+}
+
+.navigation:hover{
+cursor: pointer;
+color: #3c4fe0;
+}
+

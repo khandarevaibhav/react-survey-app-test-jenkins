@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+ 
+.info{
+    background-color: black;
+    border-radius: 7px;
+    width: 720px;
+    height: 550px;
+    margin-top: 11vh;
+    margin-left: 100px;
+}
+
+.aboutHead{
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 17px;
+    
+}
+
+.aboutPara{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 12px;
+    color: #e6ffcc;
+    font-size: 19px;
+    line-height: 1.49;
+    text-align: left;
+}
+
+.AboutImg{
+    float: right;
+    margin-top: -34%;
+    margin-right: -3%;
+    width: 900px;
+}
+
+.containerGrid{
+    background-color: black;
+    border-radius: 7px;
+    width: 400px;
+    height: 500px;
+    position: fixed;
+    right: 13%;
+    top: 20%;
+    display: grid;
+    grid-template-columns: 370px;
+    grid-template-rows: 5px 150px 80px 80px 80px 80px;
+
+
+}
+
+.gridElement{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-top: 22px;
+}
+
+.element1{
+    margin-top: 70px;
+}
+
+.elementForm{
+    padding-top: 40px;
+    margin-left: 13px;
+}
+
+.elementSubmit{
+    background-color: black;
+    margin-left: 73px;
+    margin-right: 50px;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin-top: 20px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 17px;
+}
+
+.gridGenerator{
+    color: white;
+    margin-left: 125px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+hr{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.submitBtn{
+  color: white;
+    margin-left: 77px;
+    padding-top: 80px;
+    
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 7s;
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .slideIn{
+    animation-name: slideIn;
+    animation-duration: 3s;
+  }
+  
+
+  
+  

@@ -1,0 +1,51 @@
+.preview-root {
+  width: 90%;
+  margin: auto;
+  background-color: #f3f3fe;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.preview-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.preview-label {
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  padding-top: 8px;
+}
+
+.preview-input {
+  width: 50%;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.preview-card {
+  margin-top: 20px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.preview-options {
+  margin-bottom: 10px;
+}
+
+.preview-option-label {
+  width: 70%;
+  margin: auto;
+}

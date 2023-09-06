@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+.container-left{
+  background-color: black;
+  width: 50%;
+
+  height: auto;
+
+  margin: 40px 20px;
+  border-radius: 7px;
+  display: grid;
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+
+}
+
+.main{
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  margin-left: 60px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.main,span{
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+.subItem{
+  background-color: white;
+  width: 85%;
+  height: 70px;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+ .subItem ,.boxFont{
+  padding-bottom: -20px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+.boxFont{
+  cursor: pointer;
+}
+
+.container{
+  background-color: black;
+  width: 200px;
+  /* height: 100px; */
+  /* float: right; */
+  position: fixed;
+  /* margin-right: 20%;
+  margin-top: -10%; */
+  /* margin-bottom: -500px; */
+  border-radius: 7px;
+  cursor: pointer;
+
+  top:12%;
+  /* margin-top: 20px; */
+  right: 200px;
+
+}
+
+.createBtn{
+  margin-top: 13%;
+  margin-left: 9%;
+  padding-right: 15px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 19px;
+  line-height: 1.5;
+  cursor: pointer;
+
+}
+
+.delete{
+  float: right;
+  margin-right: 10%;
+}

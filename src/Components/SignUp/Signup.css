@@ -1,0 +1,25 @@
+.signup-root {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.formSupport {
+  width: 800px;
+  text-align: center;
+}
+
+.signupContainer {
+  height: 550px;
+}
+
+.btn{
+  margin-top: 7px;
+}
+
+.input{
+  margin-top: 5px;
+  height: 45px;
+  width: 270px;
+  margin-bottom: 1px;
+}

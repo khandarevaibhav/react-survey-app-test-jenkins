@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: myrc1
+spec:
+  replicas: 3
+  selector:
+    app: my-react-deployments
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: my-react-deployments
+    spec:
+      containers:
+      - image: vaibhav220622/my-react-app-latest:latest
+        name: my-react-app-latest
+        imagePullPolicy: Never
+        resources: {}
+        ports:
+        - containerPort: 5000
+

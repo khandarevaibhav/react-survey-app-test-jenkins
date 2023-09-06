@@ -1,0 +1,31 @@
+.navbar-root {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: #222;
+  padding: 0 20px;
+}
+
+.navigate {
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 20px;
+  padding: 18.5px 10px 7.5px 30px;
+}
+
+.item {
+  padding: 25px;
+}
