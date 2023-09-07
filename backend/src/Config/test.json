@@ -1,0 +1,11 @@
+{
+    "mongo": {
+        "url": "mongodb://mongo:27017/testDB"
+    },
+    "node": {
+        "port": 5000
+    },
+    "jwt": {
+        "SECRET_KEY": "SANDIPSOLUNKE123456789"
+    }
+}

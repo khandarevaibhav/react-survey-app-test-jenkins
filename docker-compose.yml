@@ -1,0 +1,42 @@
+version: '3.8'
+services:
+  node:
+    image: "node_app"
+    build:
+      dockerfile: Dockerfile
+      context: ./backend
+    command: "npm start"
+    ports: 
+      - 5000:5000
+    
+    depends_on:
+      - mongo
+    
+    networks:
+      - internalnet
+
+  react:
+    image: "react_app"
+    build:
+      dockerfile: Dockerfile
+      context: ./frontend
+    command: "npm start"
+    ports: 
+      - 4000:4000
+    depends_on: 
+      - node
+    
+    networks:
+      - internalnet
+      
+  mongo: 
+    image: "mongo"
+    ports :
+      - 27017:27017
+    
+    networks:
+      - internalnet
+
+networks:
+  internalnet:
+    driver: bridge

@@ -1,0 +1,11 @@
+{
+    "mongo": {
+        "url": "mongodb+srv://sandip:pass1234@cluster0.0fdvgb3.mongodb.net/test"
+    },
+    "node": {
+        "port": 5000
+    },
+    "jwt": {
+        "SECRET_KEY": "SANDIPSOLUNKE123456789"
+    }
+}
