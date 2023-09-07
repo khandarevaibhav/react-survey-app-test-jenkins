@@ -18,8 +18,8 @@ spec:
         app: my-react-deployments
     spec:
       containers:
-      - image: vaibhav220622/my-react-app-latest:latest
-        name: my-react-app-latest
+              - image: vaibhav220622/react_jenkins:v1
+        name: my-react-app-latestss
         imagePullPolicy: Never
         resources: {}
         ports:
