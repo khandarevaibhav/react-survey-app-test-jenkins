@@ -20,7 +20,7 @@ spec:
       containers:
       - image: vaibhav220622/react_jenkins:v1
         name: my-react-app-latestss
-        imagePullPolicy: Never
+        imagePullPolicy: always
         resources: {}
         ports:
         - containerPort: 5000
